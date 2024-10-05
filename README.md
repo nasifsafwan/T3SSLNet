@@ -18,10 +18,17 @@ The primary goal of **T3SSLNet** is to offer a structured framework for explorin
 
 This project provides a valuable resource for researchers and developers looking to harness the power of SSL for MRI brain tumor classification, and ultimately, improve diagnostic accuracy in medical imaging tasks.
 
-Here are methodology of our research:
+## Methodology
 
 ![block_Diagram_V3(LargerFonts)](https://github.com/user-attachments/assets/90df36f7-d039-4719-b601-7cfb18317d47)
 
+## Results
+# SimCLR
+![SimCLR_LossVsAccuracy](https://github.com/user-attachments/assets/9a98c836-ff05-45b4-925c-9bb02442da8f)
+#MoCo
+![MoCo_LossVsAccuracy](https://github.com/user-attachments/assets/63c6119b-5eb5-47e8-b7d2-25444fb4705f)
+# BYOL
+![BYOL_LossVsAccuracy](https://github.com/user-attachments/assets/21bccc19-3972-4689-9f2f-57637f9516dd)
 
 If you find **T3SSLNet** helpful in your research or projects, we kindly request that you show your support by starring ⭐, forking 🍴, and citing our repository. Your citation helps to acknowledge the work and effort put into developing this project, and your support encourages further contributions to the open-source community.
 
