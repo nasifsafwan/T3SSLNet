@@ -43,7 +43,7 @@ To cite **T3SSLNet** in your research, please use the following:
   author = {Md. Nasif Safwan,Souhardo Rahman,Mahamodul Hasan Mahadi,Taharat Muhammad Jabir,Iftekharul Mobin(Corresponding Author)},
   title = {T3SSLNet: Tri-Method Self-Supervised Learning Based Pre-trained Network for MRI Brain Tumor Classification},
   year = {2024},
-  howpublished = {\url{https://github.com/username/T3SSLNet}},
+  howpublished = {\url{https://github.com/nasifsafwan/T3SSLNet}},
 }
 ```
 
