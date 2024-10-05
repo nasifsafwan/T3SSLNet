@@ -1,6 +1,6 @@
 # T3SSLNet: Tri-Method Self-Supervised Learning Based Pre-trained Network for MRI Brain Tumor Classification
 
-## Introduction
+## Overview
 
 In medical imaging, specifically MRI brain tumor classification, the challenge of limited labeled data remains a significant barrier to developing robust and accurate deep learning models. To address this issue, we introduce **T3SSLNet**—a repository designed to leverage self-supervised learning (SSL) techniques for MRI brain tumor classification. SSL allows models to learn from large quantities of unlabeled data, which is particularly advantageous in medical domains where annotating data is time-consuming and costly.
 
@@ -17,6 +17,9 @@ The framework is designed to work with two backbone architectures: **ResNet** an
 The primary goal of **T3SSLNet** is to offer a structured framework for exploring SSL in healthcare, specifically for medical image analysis. By optimizing models through SSL pre-training and fine-tuning, T3SSLNet bridges the gap between cutting-edge machine learning techniques and their practical applications in clinical diagnostics.
 
 This project provides a valuable resource for researchers and developers looking to harness the power of SSL for MRI brain tumor classification, and ultimately, improve diagnostic accuracy in medical imaging tasks.
+### Data Distribution
+![data_distribution](https://github.com/user-attachments/assets/a1ddb8b6-8a69-490e-a764-97a662d5f068)
+
 
 ## Methodology
 
