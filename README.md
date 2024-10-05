@@ -1,18 +1,22 @@
 # T3SSLNet: Tri-Method Self-Supervised Learning Based Pre-trained Network for MRI Brain Tumor Classification
 
-This repository, **T3SSLNet**, focuses on MRI brain tumor classification using self-supervised learning (SSL) techniques. It incorporates three prominent SSL methods—**SimCLR**, **MoCo**, and **BYOL**—to pre-train deep neural networks for feature extraction from MRI images. These SSL methods present a compelling alternative to traditional supervised learning by utilizing large quantities of unlabeled data, making them particularly useful in medical imaging, where labeled data can be scarce or expensive to obtain.
+## Introduction
 
-T3SSLNet implements SSL models with two different backbone architectures—**ResNet** and **EfficientNet**—offering three distinct modes of operation:
+In medical imaging, specifically MRI brain tumor classification, the challenge of limited labeled data remains a significant barrier to developing robust and accurate deep learning models. To address this issue, we introduce **T3SSLNet**—a repository designed to leverage self-supervised learning (SSL) techniques for MRI brain tumor classification. SSL allows models to learn from large quantities of unlabeled data, which is particularly advantageous in medical domains where annotating data is time-consuming and costly.
 
-1. **Training without fine-tuning ResNet**: In this mode, the model uses a pre-trained ResNet backbone without additional fine-tuning, providing a quick evaluation of its generalization ability on MRI brain tumor classification tasks with SSL pre-trained weights.
+**T3SSLNet** integrates three popular SSL methods—**SimCLR**, **MoCo**, and **BYOL**—each of which has proven highly effective in learning visual representations without the need for labeled data. By employing these SSL techniques, we aim to improve feature extraction from MRI scans and enhance model performance on downstream tasks like brain tumor classification.
 
-2. **Training with fine-tuning ResNet**: This mode fine-tunes the ResNet backbone, enhancing feature extraction and better adapting to the unique characteristics of MRI data. Fine-tuning helps improve the model’s performance on the downstream classification task.
+The framework is designed to work with two backbone architectures: **ResNet** and **EfficientNet**, offering users the flexibility to choose the architecture that best suits their needs. Furthermore, T3SSLNet supports three distinct training configurations:
 
-3. **Training with fine-tuning EfficientNet**: Known for its balance of accuracy and efficiency, EfficientNet is used as the backbone in this mode. Fine-tuning EfficientNet offers performance improvements and serves as an alternative to the ResNet backbone for MRI classification.
+1. **Training without fine-tuning ResNet**: A quick evaluation mode that uses pre-trained ResNet weights to assess how well the SSL method generalizes to the MRI brain tumor classification task.
+   
+2. **Training with fine-tuning ResNet**: This mode fine-tunes the ResNet backbone for better adaptation to the MRI data, improving the model’s overall classification performance.
+   
+3. **Training with fine-tuning EfficientNet**: EfficientNet is known for its efficiency in balancing accuracy and computational cost. Fine-tuning this architecture provides another approach for achieving high performance in MRI classification.
 
-T3SSLNet provides a robust framework for researchers and practitioners to explore the impact of different SSL methods and backbone architectures on MRI-based brain tumor classification. By offering a variety of training configurations, it enables users to optimize models for improved diagnostic accuracy, advancing the application of SSL in medical imaging.
+The primary goal of **T3SSLNet** is to offer a structured framework for exploring SSL in healthcare, specifically for medical image analysis. By optimizing models through SSL pre-training and fine-tuning, T3SSLNet bridges the gap between cutting-edge machine learning techniques and their practical applications in clinical diagnostics.
 
-This repository bridges the gap between advanced machine learning techniques and real-world clinical applications, making it a valuable resource for exploring SSL in healthcare.
+This project provides a valuable resource for researchers and developers looking to harness the power of SSL for MRI brain tumor classification, and ultimately, improve diagnostic accuracy in medical imaging tasks.
 
 Here are methodology of our research:
 
