@@ -23,7 +23,7 @@ This project provides a valuable resource for researchers and developers looking
 
 ## Methodology
 
-![block_Diagram_V3(LargerFonts)](https://github.com/user-attachments/assets/90df36f7-d039-4719-b601-7cfb18317d47)
+
 
 ## Results
 ### SimCLR
